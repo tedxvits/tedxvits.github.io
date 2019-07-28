@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "countdown": "^2.6.0",
     "counterup": "^1.0.2",
     "elegant-icons": "0.0.1",
     "font-awesome": "^4.7.0",

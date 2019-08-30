@@ -1415,6 +1415,30 @@ input:required {
       margin-bottom: 5px; }
       .single-speaker-area .social-info a:last-child {
         margin-bottom: 0; }
+  
+
+        .single-speaker-area .speaker-details {
+          position: absolute;
+          bottom: -100%;
+          width: 100%;
+          z-index: 25;
+          background-color: #e72e2e6b;
+          padding: 15px;
+          border-radius: 0 10px 0 10px;
+          text-align: center;
+          -webkit-transition-duration: 800ms;
+          -o-transition-duration: 800ms;
+          transition-duration: 800ms; }
+          .single-speaker-area .speaker-details p {
+            display: block;
+            font-size: 18px;
+            color: #ffffff;
+            margin-bottom: 5px; }
+            .single-speaker-area .speaker-details p:last-child {
+              margin-bottom: 0; }
+
+
+  
   .single-speaker-area .speaker-info {
     position: absolute;
     bottom: 25px;
@@ -1434,6 +1458,20 @@ input:required {
   .single-speaker-area:hover .social-info, .single-speaker-area:focus .social-info {
     top: 0; }
 
+    .single-speaker-area:hover .speaker-details, .single-speaker-area:focus .speaker-details {
+      
+      bottom: 0; 
+      width: 100%;    
+   }
+
+   .single-speaker-area:hover .speaker-info, .single-speaker-area:focus .speaker-info {
+    transition-duration: 800ms;
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    
+     opacity: 0;
+ }
+  
 /* :: 13.0 Breadcrumb CSS */
 .breadcrumb-area {
   position: relative;

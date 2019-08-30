@@ -67,6 +67,30 @@
         }
     }
 
+    
+    .speaker-details {
+        position: absolute;
+        top: -180px;
+        right: 0;
+        z-index: 22;
+        background-color: $primary;
+        padding: 15px;
+        border-radius: 0 10px 0 10px;
+        text-align: center;
+        @include transition-duration(800ms);
+
+        a {
+            display: block;
+            font-size: 18px;
+            color: $white;
+            margin-bottom: 5px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
     .speaker-info {
         position: absolute;
         bottom: 25px;
@@ -94,5 +118,9 @@
         .social-info {
             top: 0;
         }
+        .speaker-details {
+            bottom: 0;
+        }
+        
     }
 }
